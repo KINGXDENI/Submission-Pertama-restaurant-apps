@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Discover the best restaurants and make reservations with ease using our restaurant booking service. Enjoy a hassle-free dining experience at your favorite restaurants.">
+  <link rel="shortcut icon" href="images/restaurant3.png" type="image/x-icon">
+  <title>Dicoding Food</title>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <a href="#resto" class="skip-link">Skip to content</a>
+  <header class="header">
+    <a href="/" class="logo" tabindex="0"> <img src="images/restaurant3.png" class="logo" id="logo" width="44"
+        height="44" alt="Dicoding Food"> Dicoding Food </a>
+    <div class="icons">
+      <button id="menu-btn" type="button" class="fas fa-bars fa-3x" tabindex="0" aria-label="tombol menu"></button>
+    </div>
+    <nav class="navbar" aria-label="Navigasi utama">
+      <a href="/" tabindex="0" aria-label="navigasi home">home</a>
+      <a href="#" tabindex="0" aria-label="navigasi favorite">Favorite</a>
+      <a href="https://github.com/KINGXDENI" tabindex="0" target="_blank" rel="noopener noreferrer"
+        aria-label="navigasi about us">About Us</a>
+    </nav>
+  </header>
+  <!-- end -->
+
+  <!-- home -->
+  <main id="konten-utama">
+    <section class="hero" id="home">
+      <div class="content">
+        <h3>Explore a <span> World of </span> Flavors!</h3>
+        <a href="#resto" tabindex="0" role="button" id="btn_explore" class="btn" title="Explore Now"
+          aria-label="Tombol explore now">
+          explore
+          now </a>
+      </div>
+    </section>
+    <!-- end -->
+
+    <!-- resto -->
+    <section class="list-resto" id="resto">
+      <h1 class="heading"> Explore <span> Restaurant</span> </h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/heros/hero-image_2.jpg" class="thumb-res" alt="">
+          </div>
+          <div class="content">
+            <h3 class="title-res">Judul Restaurant</h3>
+            <div class="icons">
+              <div class="icon"> <i class="fas fa-map-marker-alt"></i> <span class="loc-res"></span>
+              </div>
+            </div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <span class="rate-res"></span>
+            </div>
+            <p class="desc-res"></p>
+            <button class="btnd" tabindex="0" type="button" aria-label="Tombol details" title="Detail"> <i
+                class="fas fa-eye"> </i>
+              <span>Details</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end -->
+
+    <!-- Service -->
+    <section class="service" id="service">
+      <h1 class="heading"> our <span>services</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="content">
+            <i class="fa fa-4x fa-user-tie"></i>
+            <h3>Master Chefs</h3>
+            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <i class="fa fa-4x fa-utensils"></i>
+            <h3>Quality Food</h3>
+            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <i class="fa fa-4x fa-cart-plus"></i>
+            <h3>Online Order</h3>
+            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <i class="fa fa-4x fa-headset"></i>
+            <h3>24/7 Service</h3>
+            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- end -->
+
+    <!-- Reservation -->
+    <section class="Reservation" id="Reservation">
+      <h1 class="heading"> Reservation <span> now </span> </h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/reservation.png" alt="">
+        </div>
+        <form>
+          <div class="inputBox">
+            <input type="text" id="nama" tabindex="0" placeholder="your name" aria-label="nama lengkap">
+            <input type="email" id="email" tabindex="0" placeholder="your email" aria-label="email">
+          </div>
+          <div class="inputBox">
+            <input type="date" tabindex="0" id="tanggal" aria-label="Tanggal booking">
+            <input type="number" id="jmlh_org" tabindex="0" placeholder="How many people"
+              aria-label="Pesan untuk berapa orang?">
+          </div>
+          <textarea placeholder="Spesial Request" id="spes_req" cols="30" rows="10"
+            aria-label="spesial request"></textarea>
+          <button type="submit" tabindex="0" id="btn_booking" class="btn" aria-label="Tombol Booking Now">Booking
+            now</button>
+        </form>
+      </div>
+    </section>
+    <!-- end -->
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <small>My Submission Dicoding &copy; 2023 - Muh Deni Setiawan</small>
+  </footer>
+</body>
+
+</html>
